@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Just Text Please",
+    "version": "1.0",
+    "description": "Distraction-free browsing. Content first",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
